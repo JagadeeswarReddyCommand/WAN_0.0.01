@@ -1,0 +1,75 @@
+
+@media only screen and (min-width: 1200px)
+{
+body{
+	display: flex;
+	flex-direction: column;
+	margin: 0ex;
+}
+#head{
+	display: flex;
+	flex-direction: row;
+	flex:2;
+	background-color:lightgreen; 
+}
+#right-head{
+	display: flex;
+	flex-direction: column;
+	flex:0.75;
+	align-items: center;
+}
+#populating{
+	display:flex;
+	flex-direction:column;
+	font-size:25px;
+	margin-top:0.2in;
+	font-weight:bold;
+}
+#left-head{display: flex;
+	flex-direction: column;
+	flex:1.25;}
+img[src="img/logo.png"]{border-radius: 50%;	align-items: center; margin-left: 100px;}
+text{margin-top:25px; font-size: 25px;}
+
+
+#head-menu{
+	display: flex;
+	flex-direction: row;
+	flex:6;
+	align-items: center;
+	background-color: lightgreen}
+.menu,.menu-b{
+	flex: 1;
+	align-items: center;
+}
+#menu-btn{
+	 border: 1px solid black;font-size: 25px;background-color: lightgreen;
+	font-size: 25px;
+}
+input[type="button"]{background-color: lightgreen; border: 0px;font-size: 25px;}
+input[type="button"]:hover{
+	background-color: lightblue;
+}
+
+
+h2[id="slide"]{
+    text-align: center;
+    color: red;
+    margin-bottom: 1px;
+    background-color: wheat;}
+h2[id="body-co"]{ text-align:center;color:	rgb(0, 0, 0);}
+h3{
+	margin-bottom: 1px;
+}
+#footer{
+	margin: 10px;
+	bottom:0px;
+	margin-bottom: 0px;
+	display: flex;
+	flex:3;
+	flex-direction: row; 
+	background-color: lightyellow;
+}
+.footer{flex: 1; display: flex;flex-direction: column;}
+
+}

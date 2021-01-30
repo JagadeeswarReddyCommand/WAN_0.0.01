@@ -1,0 +1,39 @@
+
+@media only screen and (min-width: 375px) {
+input{
+	margin-top:10px;
+	height:1in;
+	font-size:48px;
+}
+input[type="number"]{
+	border:5px solid red;
+}
+input[type="submit"]{
+	margin-left:1in;
+	border:5px solid red;
+}
+input[type="radio"]{
+	border:3px solid black;
+	width:0.5in;
+	margin-right: 0.5in
+}
+body{
+	font-size:48px;
+	font-weight: bolder;
+	margin-left:1in;
+}
+}	
+@media only screen and (min-width: 981px) {
+
+input{
+	margin:20px;
+}
+input{
+	margin:10px;
+	height:0.5in;
+	font-size:30px;
+}
+body{
+	font-size:35px;
+}
+}

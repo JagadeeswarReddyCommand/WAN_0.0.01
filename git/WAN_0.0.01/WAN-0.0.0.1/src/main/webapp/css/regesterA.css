@@ -1,0 +1,40 @@
+@media only screen and (max-width: 980px){
+body
+{
+	margin:2%;
+	margin-bottom:0px;
+	font-size:0.55in;
+}
+input{
+	font-size:0.6in;
+	display:flex;
+	width:9in;
+	border:0px;
+	border-bottom:3px solid;
+	margin-top:3px;
+	margin-bottom:5px;
+    color: blueviolet;
+    background-color: mintcream;
+}
+pres{
+	font-size:0.6in;
+	font-weight:bold;
+	font-style: italic;
+	margin-top:5px;
+	color:brown;
+	margin-bottom:5px;
+}
+input[type="submit"]{
+	margin-top:40px;
+	margin-bottom:0px;
+	width:auto;
+	height:auto;
+	margin-left:3in;
+}
+input:focus{
+	outline:0px;
+}
+.foot{
+	font-size:0.8in;
+}
+}

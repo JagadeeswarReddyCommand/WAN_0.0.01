@@ -1,0 +1,46 @@
+body{
+	display:flex;
+	flex-direction:column;
+}
+#root{
+	display:flex;
+	flex-direction:row;
+	flex:10;
+}
+#left{
+	font-size:0.3in;
+	display:flex;
+	flex-direction:column;
+	flex:1;
+}
+#right{
+	display:flex;
+	flex-direction:column;
+	flex:9;
+}
+#right div{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+}
+#right div div{
+	display:flex;
+	flex-direction:column;
+}
+img{
+	margin:1px;
+	margin-top:3px;
+}
+img:hover{
+	width:500;
+	height:500;
+	border-width:50%;
+}
+a[class="operations"]{
+	color: blue;
+    font-weight: bolder;
+    text-decoration: none;
+}
+#left div{
+	margin:0ex;
+}

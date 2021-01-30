@@ -1,0 +1,82 @@
+@media only screen and (max-width: 980px){
+body{
+	display:flex;
+	margin:0.1in;
+	flex-direction:column;
+	flex:6;
+	border:3px dashed orange;
+	height:96vh;
+	background-color:yellow;
+}
+#header{
+	display:flex;
+    background-color:red;
+	flex-direction:column;
+}
+#one{
+	color:white;
+	font-size:0.31in;
+	align-self: center;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+}
+#root{
+	margin-top:25px;
+	display:flex;
+	flex-direction:row; 
+	flex:5;
+}
+#left-r{
+	overflow: scroll;
+	margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+#left-r form input[type="text"]{
+	height:0.3in;
+	border:0ex;
+	border-bottom:2px solid black;
+}
+#left-r form input[type="submit"]{
+	background-color: white;
+    border: 2px solid black;
+    font-size: xx-large;
+}
+#right-r{
+	margin-left:1in;
+	display:flex;
+	flex-direction:column;
+	flex:3;
+	height: inherit;
+	overflow: scroll;
+}
+#logout{
+	display:flex;
+	flex-direction:column;
+}
+#logout div{
+	display:flex;
+	flex-direction: row;
+	height: 0.75in;
+}
+#Two a{
+	color: white;
+	margin-right:5px;
+}
+a{
+	font-size: 30px;
+    text-decoration: none;
+    font-weight:bold;
+    font-style: italic;
+    margin-left:1in;    
+    } 
+.chat{
+	font-size: 30px;
+	margin:0px;
+}
+.chat:hover{
+	color: palevioletred;
+}
+}

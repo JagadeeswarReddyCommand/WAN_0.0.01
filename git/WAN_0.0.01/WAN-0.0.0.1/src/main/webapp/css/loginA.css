@@ -1,0 +1,32 @@
+@media only screen and (max-width: 980px) {
+input{
+	margin-top: 10px;
+    border: 3px solid;
+    display: flex;
+    flex-direction: column;
+    height: 1in;
+    width: 95%;
+    background: ivory;
+    font-size: 50px;
+}
+#image{
+	margin:1px;
+}
+input[type="submit"]{
+	width: fit-content;
+    align-self: center;
+    border: none;
+    background: blueviolet;
+    color: orange;
+    margin: auto;
+    font-size:80px;
+}
+body{
+	background: ivory;
+	font-size:48px;
+}
+a{
+	font-size:80px;
+}
+
+}

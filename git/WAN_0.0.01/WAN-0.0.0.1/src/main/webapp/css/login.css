@@ -1,0 +1,68 @@
+@media only screen and (min-width: 981px) {
+body{
+  display: flex;
+  flex-direction: row;
+  flex:2;
+}
+blink{
+	font-weight:bold;
+    font-size:15px;
+  animation: blinker 5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+#image{
+	background: radial-gradient(black, transparent);
+}
+#title{
+    color: blue;
+    font-size: 30px;
+    
+}
+.split {
+    height: 100%;
+    width: 40%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+  }
+  
+  .right {
+      margin-right: 100px;
+    right: 0;
+    text-align: center;
+  }
+  p{
+      margin: 0em;
+  }
+
+  #box{
+    background-color:lightgrey;
+    border: 15px solid blue;
+    margin:1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+	margin:5px;
+	height:0.4in;
+	font-size:30px;
+}
+body{
+	font-size:30px;
+}
+}
